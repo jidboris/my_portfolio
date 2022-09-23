@@ -185,6 +185,12 @@ header.sticky {
     margin-bottom: 25px;
     letter-spacing: 2px;
 }
+
+.about-text span{
+    color: var(--main-color);
+    font-weight: bolder;
+}
+
 .about-text p {
     color: var(--secound-color);
     letter-spacing: 1px;
@@ -208,9 +214,10 @@ header.sticky {
     border: 2px solid var(--main-color);
     background: transparent;
 }
-.projects{
+.project-content{
     background: var(--bg-color);
 }
+
 .center{
     text-align: center;
 }
@@ -231,6 +238,7 @@ font-size: var(--p-font);
     align-items: center;
     margin-top: 4.5rem;
 }
+
 .row{
     background: var(--secound-bg-color);
     padding: 55px 30px;
